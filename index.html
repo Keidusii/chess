@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Play Chess!</title>
+    <link rel="stylesheet" href="chess.css">
+</head>
+
+<body>
+    <div id="board">
+        <div id="turn">White's turn</div>
+        <div class="row" id="8">
+            <div class="light spot" id="81" piece="rook" color="black"></div>
+            <div class="dark spot" id="82" piece="knight" color="black"></div>
+            <div class="light spot" id="83" piece="bishop" color="black"></div>
+            <div class="dark spot" id="84" piece="queen" color="black"></div>
+            <div class="light spot" id="85" piece="king" color="black"></div>
+            <div class="dark spot" id="86" piece="bishop" color="black"></div>
+            <div class="light spot" id="87" piece="knight" color="black"></div>
+            <div class="dark spot" id="88" piece="rook" color="black"></div>
+        </div>
+        <div class="row" id="7">
+            <div class="dark spot" id="71" piece="pawn" color="black"></div>
+            <div class="light spot" id="72" piece="pawn" color="black"></div>
+            <div class="dark spot" id="73" piece="pawn" color="black"></div>
+            <div class="light spot" id="74" piece="pawn" color="black"></div>
+            <div class="dark spot" id="75" piece="pawn" color="black"></div>
+            <div class="light spot" id="76" piece="pawn" color="black"></div>
+            <div class="dark spot" id="77" piece="pawn" color="black"></div>
+            <div class="light spot" id="78" piece="pawn" color="black"></div>
+        </div>
+        <div class="row" id="6">
+            <div class="light spot" id="61" piece="" color=""></div>
+            <div class="dark spot" id="62" piece="" color=""></div>
+            <div class="light spot" id="63" piece="" color=""></div>
+            <div class="dark spot" id="64" piece="" color=""></div>
+            <div class="light spot" id="65" piece="" color=""></div>
+            <div class="dark spot" id="66" piece="" color=""></div>
+            <div class="light spot" id="67" piece="" color=""></div>
+            <div class="dark spot" id="68" piece="" color=""></div>
+        </div>
+        <div class="row" id="5">
+            <div class="dark spot" id="51" piece="" color=""></div>
+            <div class="light spot" id="52" piece="" color=""></div>
+            <div class="dark spot" id="53" piece="" color=""></div>
+            <div class="light spot" id="54" piece="" color=""></div>
+            <div class="dark spot" id="55" piece="" color=""></div>
+            <div class="light spot" id="56" piece="" color=""></div>
+            <div class="dark spot" id="57" piece="" color=""></div>
+            <div class="light spot" id="58" piece="" color=""></div>
+        </div>
+        <div class="row" id="4">
+            <div class="light spot" id="41" piece="" color=""></div>
+            <div class="dark spot" id="42" piece="" color=""></div>
+            <div class="light spot" id="43" piece="" color=""></div>
+            <div class="dark spot" id="44" piece="" color=""></div>
+            <div class="light spot" id="45" piece="" color=""></div>
+            <div class="dark spot" id="46" piece="" color=""></div>
+            <div class="light spot" id="47" piece="" color=""></div>
+            <div class="dark spot" id="48" piece="" color=""></div>
+        </div>
+        <div class="row" id="3">
+            <div class="dark spot" id="31" piece="" color=""></div>
+            <div class="light spot" id="32" piece="" color=""></div>
+            <div class="dark spot" id="33" piece="" color=""></div>
+            <div class="light spot" id="34" piece="" color=""></div>
+            <div class="dark spot" id="35" piece="" color=""></div>
+            <div class="light spot" id="36" piece="" color=""></div>
+            <div class="dark spot" id="37" piece="" color=""></div>
+            <div class="light spot" id="38" piece="" color=""></div>
+        </div>
+        <div class="row" id="2">
+            <div class="light spot" id="21" piece="pawn" color="white"></div>
+            <div class="dark spot" id="22" piece="pawn" color="white"></div>
+            <div class="light spot" id="23" piece="pawn" color="white"></div>
+            <div class="dark spot" id="24" piece="pawn" color="white"></div>
+            <div class="light spot" id="25" piece="pawn" color="white"></div>
+            <div class="dark spot" id="26" piece="pawn" color="white"></div>
+            <div class="light spot" id="27" piece="pawn" color="white"></div>
+            <div class="dark spot" id="28" piece="pawn" color="white"></div>
+        </div>
+        <div class="row" id="1">
+            <div class="dark spot" id="11" piece="rook" color="white"></div>
+            <div class="light spot" id="12" piece="knight" color="white"></div>
+            <div class="dark spot" id="13" piece="bishop" color="white"></div>
+            <div class="light spot" id="14" piece="queen" color="white"></div>
+            <div class="dark spot" id="15" piece="king" color="white"></div>
+            <div class="light spot" id="16" piece="bishop" color="white"></div>
+            <div class="dark spot" id="17" piece="knight" color="white"></div>
+            <div class="light spot" id="18" piece="rook" color="white"></div>
+        </div>
+    </div>
+    <div id="restart"></div>
+    
+    <!--Scripts-->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="chess.js"></script>
+</body>

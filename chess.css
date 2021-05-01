@@ -1,0 +1,74 @@
+.spot {
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: 1px solid black;
+}
+
+.light {
+    background-color: rgb(167, 138, 95);
+}
+
+.dark {
+    background-color: rgb(71, 45, 6);
+}
+
+body {
+    display: inline-block; /* shrink to fit */
+    width: 100%;           /* whatever width you like */
+    position: relative;    /* so .content can use position: absolute */
+}
+
+#board {
+    padding-top: auto; /* percentage of containing block _width_ */
+    display: block;
+    height: 870px;
+    width: 816px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#restart {
+    display: none;
+    margin-left: auto, 50%;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 1.5%;
+    
+}
+
+#turn {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+html {
+    background-color: #262626;
+}
+
+.ui-dialog {
+    border: 1px solid black;
+}
+
+.ui-dialog-titlebar {
+    background-color: black;
+    padding: 1%;
+}
+
+.ui-dialog-buttonpane {
+    background-color: black;
+    padding: 1%;
+}
+
+.ui-button {
+    margin-right: 2%;
+    border: 1px solid gray;
+}
